@@ -1,0 +1,19 @@
+*.pem
+*.zip
+.idea
+*tfstate*
+.terraform*
+.vscode
+.venv
+__pycache__
+.DS_Store
+*.egg-info
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+*.pem
