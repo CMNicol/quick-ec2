@@ -1,4 +1,6 @@
-The AWS CDK app here creates a single EC2 instance which can be accessed using SSH from a shell.  
+The AWS CDK app here creates a single EC2 instance which can be accessed using SSH from a shell.
+
+<img src="diagram/diagram.png" alt="Alt Text" style="width:100%; height:100%;">
 
 # Deploying
 The CDK app is deployed using `cdk deploy`.  
@@ -6,9 +8,9 @@ Environment variables need to be in place to configure the app.
 
 ## Environment variables
 A `.env` file is used to set environment variables.  
-A [Pydantic Settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/) class is used to get the variables when instantiated.  
-The `StackParameters` class (found in `parameters/from_environment.py`), is defined.  
-This class defines the environment variables needed in the `.env` file.  
+A [Pydantic Settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/) class is used to get the variables when instantiated.
+The `StackParameters` class (found in `parameters/from_environment.py`), is that class.
+Look at it to see what environment variables are needed in the `.env` file.  
 
 ## Helpful
 [Finding an AMI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/finding-an-ami.html).  
