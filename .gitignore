@@ -5,15 +5,14 @@
 .terraform*
 .vscode
 .venv
+.env
 __pycache__
 .DS_Store
 *.egg-info
 *.swp
 package-lock.json
-__pycache__
 .pytest_cache
 
-# CDK asset staging directory
+# CDK
 .cdk.staging
 cdk.out
-*.pem
