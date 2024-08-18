@@ -12,6 +12,7 @@ __pycache__
 *.swp
 package-lock.json
 .pytest_cache
+poetry.lock
 
 # CDK
 .cdk.staging

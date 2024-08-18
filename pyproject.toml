@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ec2-sandbox-instance"
+version = "0.1.0"
+description = ""
+package-mode = false
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aws-cdk-lib = "2.152.0"
+constructs = ">=10.0.0,<11.0.0"
+pydantic-settings = "^2.4.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+isort = "^5.13.2"
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
