@@ -28,7 +28,10 @@ This command outputs the key text to a file called `ec2ssh.pem`.
 ```shell
 aws ssm get-parameter --name <keyname> --with-decryption --query 'Parameter.Value' --output text > ec2ssh.pem
 ```
-
+Make the key read only by owner.
+```shell
+chmod 400 ec2ssh.pem
+```
 ## Get the instance's public DNS name
 ```shell
 aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId, InstanceType, State.Name, KeyName, PublicIpAddress, PublicDnsName]' --output table
