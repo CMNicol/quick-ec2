@@ -63,7 +63,7 @@
           <mxGeometry x="80" y="190" width="680" height="380" as="geometry" />
         </mxCell>
         <mxCell id="4HG7Ck5HDDxE3vP-vEPG-11" value="Instance Role" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="K-hR3ViR91edXrEOPa3M-1" vertex="1">
-          <mxGeometry x="570" y="257" width="78" height="44" as="geometry" />
+          <mxGeometry x="580" y="257" width="78" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
